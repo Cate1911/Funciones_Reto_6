@@ -11,11 +11,11 @@
   + Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado r, a y b.
   + Revise como utilizar el valor de pi usando import math y math.pi
 
-    ![image](https://github.com/Cate1911/Funciones_Reto_6/assets/141857246/072776cc-9912-4b14-b3f7-60e908624f30)
+    ![image](https://github.com/Cate1911/Funciones_Reto_6/assets/141857246/6d424424-e1ee-4bca-8084-2ec1fa4a7b38)
 
 ## 3. Diseñe una función que calcule la cantidad de carne de aves en kilos si se tienen N gallinas, M gallos y K pollitos cada uno pesando 6 kilos, 7 kilos y 1 kilo respectivamente.
-
-    ![image](https://github.com/Cate1911/Funciones_Reto_6/assets/141857246/4260aaae-dade-4175-9b56-7eac666b861c)
+  
+  ![image](https://github.com/Cate1911/Funciones_Reto_6/assets/141857246/440e85cb-fa66-4212-a74b-6533926b58f8)
 
 ## 4. Mi mamá me manda a comprar P panes a 300 cada uno, M bolsas de leche a 3300 cada una y H huevos a 350 cada uno. Hacer un programa que me diga las vueltas (o lo que quedo debiendo) cuando me da un billete de B pesos.
 ## 5. Haga un programa que utilice una función para calcular el valor de un préstamo C usando interés compuesto del i por n meses.
