@@ -1,0 +1,25 @@
+#Importar el valor de pi
+#Declarar e inicializar pi
+import math
+p = math.pi
+#Declarar la función para calcular el perímetro de la figura y declarar las variables en la función
+def calcular_perimetro_figura(r:float, a:float, b:float) -> float:
+  perimetro_circulo = 2 * p * r
+  perimetro_rectangulo = 2 * (a + b)
+  perimetro_figura = 2 * perimetro_circulo + perimetro_rectangulo
+  return perimetro_figura
+#Declarar la función para calcular el área de la figura y declarar las variables en la función
+def calcular_area_figura(r:float, a:float, b:float) -> float:
+  area_circulo = p * r**2
+  area_rectangulo = a * b
+  area_figura = 2 * area_circulo + area_rectangulo
+  return area_figura
+#Definir la función main con las variables y con el resultado que quiero que muestre
+if __name__ == "__main__":
+  r = float(input("Ingrese el radio del círculo:"))
+  a = float(input("Ingrese la altura del rectángulo:"))
+  b = float(input("Ingrese el largo del rectángulo: "))
+  perimetro_figura = calcular_perimetro_figura(r, a, b)
+  area_figura = calcular_area_figura(r, a, b)
+  print("El perimetro de la figura es " + str(perimetro_figura))
+  print("El área de la figura es " + str(area_figura))

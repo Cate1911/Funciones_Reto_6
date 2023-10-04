@@ -1,0 +1,26 @@
+#Importar el valor de pi
+#Declarar e inicializar pi
+import math
+p = math.pi
+#Declarar la función para calcular el volumen de la figura y declarar las variables en la función
+def calcular_volumen_figura(radio_circulo:float, radio_cono:float, altura_cono:float) -> float:
+  volumen_esfera = 4/3 * p * radio_circulo**3
+  volumen_cono = p * radio_cono**2 * altura_cono
+  volumen_figura = volumen_esfera + volumen_cono
+  return volumen_figura
+
+def calcular_area_figura(radio_circulo:float, radio_cono:float, altura_cono:float) -> float:
+  generatriz_cono = (altura_cono ** 2 + radio_cono ** 2)**1/2
+  area_esfera = 4 * p * radio_circulo**2
+  area_cono = p * radio_cono * generatriz_cono + p * radio_cono**2
+  area_figura = area_esfera + area_cono
+  return area_figura
+
+if __name__ == "__main__":
+  radio_circulo = float(input("Ingrese el radio del círculo:"))
+  radio_cono = float(input("Ingrese el radio de la base del cono:"))
+  altura_cono = float(input("Ingrese la altura del cono: "))
+  volumen_figura = calcular_volumen_figura(radio_circulo, radio_cono, altura_cono)
+  area_figura = calcular_area_figura(radio_circulo, radio_cono, altura_cono)
+  print("El volumen de la figura es " + str(volumen_figura))
+  print("El área de la figura es " + str(area_figura))
