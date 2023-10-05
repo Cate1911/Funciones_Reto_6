@@ -1,0 +1,10 @@
+#Declarar la función
+def calcular_numero_contagiados_dia_d(d:int, c:int) -> int:
+    numero_contagiados = c * 2** d
+    return numero_contagiados
+#Definir la función main
+if __name__ == "__main__":
+    c = int(input("Ingrese el número de contagiados actuales: "))
+    d = int(input("Ingrese la cantidad de días: "))
+    numero_contagiados = calcular_numero_contagiados_dia_d(d, c)
+    print("El número de contagiados para el día " + str(d) + " es de " + str(numero_contagiados))
