@@ -27,6 +27,9 @@ Aquí utilicé la función "abs" para que me pudiera hallar el valor absoluto de
   ![image](https://github.com/Cate1911/Funciones_Reto_6/assets/141857246/c0a1b4bf-910c-422d-ac53-4dbd616ad4f6)
 
 ## 6. El número de contagiados de Covid-19 en el país de NuncaLandia se duplica cada día. Hacer un programa que diga el número total de personas que se han contagiado cuando pasen D días a partir de hoy, si el número de contagiados actuales es C.
+  
+  ![image](https://github.com/Cate1911/Funciones_Reto_6/assets/141857246/0bde9927-aba7-47e3-92d0-81b8917bf765)
+
 ## 7. Escriba un programa que pida 5 números reales y calcule las siguientes operaciones usando una función para cada una:
   + El promedio.
   + La mediana.
@@ -35,6 +38,31 @@ Aquí utilicé la función "abs" para que me pudiera hallar el valor absoluto de
   + Ordenar los números de forma descendente.
   + La potencia del mayor número elevado al menor número.
   + La raíz cúbica del menor número.
+  
+  ![image](https://github.com/Cate1911/Funciones_Reto_6/assets/141857246/41d6bfea-39bb-4161-a6dd-82a98b7b55aa)
+
 ## 8. Para el punto anterior incluir las funciones en un archivo independiente e importarlas para su uso.
+
+  ![image](https://github.com/Cate1911/Funciones_Reto_6/assets/141857246/19c9c426-0d7f-49c6-96e6-84ea1eda80b8)
+
 ## 9. Consultar qué es y cómo funciona pip en python.
+  Es un gestor o administrador de paquetes para instalar y administrar paquetes de software en Python y descargarlos en la computadora, esto, con el fin de integrarlos a los desarrollos que realizamos en Python. Este gestor no es necesario instalarlo si se tiene una versión de Python de 3.4 o más avanzada.
+  En un editor de código podemos utilizar pip para instalar o desinstalar programas como ```pip install [nombre del paquete]``` y ```pip uninstall wxPython``` (se pone ```y``` para confirmar la desinstalación)respectivamente. También, podemos conocer todos los archivos que tiene un paquete que hayamos instalado como ```pip show --files wxPython``` o con ```pip show -f wxPython```. Para conocer todos los paquetes instalados en nuestro entorno de Python podemos utilizar ```pip list```. Finalmente, para saber si alguno de nuestros paquetes está desactualizado, usamos ```pip list --outdated``` y para actualizar ese paquete, con ```pip install --upgrade wxPython```; o si, al contrario queremos instalar una versión más vieja de un paquete, usamos ```pip install wxPython==4.0.2```. 
+  **_Nota: wxPython es un ejemplo del nombre de un paquete._**
+  **Referencias:** PIP en Python - buscaminegocio.com. (s. f.). PIP en Python - buscaminegocio.com. https://www.buscaminegocio.com/cursos-de-python/pip-en-python.html y Moisset, D. (s. f.). PIP : Funcionalidades. https://www.tutorialesprogramacionya.com/pythonya/detalleconcepto.php?punto=56&codigo=56&inicio=45 
 ## 10. Hacer un listado de módulos populares para python que se puedan instalar com pip y consultar cómo instalarlos.
+  ### Los 10 Módulos populares
+  | # | Módulo | ¿Cómo instalarlo | Uso (s) |
+  |---|--------|-------------|-----|
+  | 1 | NumPy | ```pip install numpy``` | Proporciona soporte para la manipulación de arrays multidimensionales y cálculos matemáticos en computación numérica.|
+  | 2 | Pandas | ```pip install pandas``` | Para la manipulación y análisis de datos para DataFrames y Series.|
+  | 3 | Matplotlip | ```pip install matplotlib``` | Creación de gráficos y visualización de datos en 2D.|
+  | 4 | Requests | ```pip install requests``` | Realizar peticiones de HTTP y trabajar con servicios web.|
+  | 5 | Scikit-Learn | ```pip install scikit-learn``` | Aprendizaje, resolución de problemas de clasificación y regresión, como clustering o regresión final.|
+  | 6 | TensorFlow | ```pip install tensorflow``` | Realizar cálculos numéricos con diagramas de flujo.|
+  | 7 | Flask | ```pip install Flask``` | Desarrollo de aplicaciones web.|
+  | 8 | Beautiful Soup | ```pip install beautifulsoup4``` | Análisis de documentos HTML y XML.|
+  | 9 |  SQLAlchemy | ```pip install sqlalchemy``` | Simplifica la interacción con bases de datos SQL.|
+  | 10 |  Django | ```pip install django``` | Desarrollo de aplicaciones web.|
+
+  **Referencias:**  Lista de las mejores librerías de Python para el 2022. (2021, 5 noviembre). https://www.crehana.com. https://www.crehana.com/blog/transformacion-digital/librerias-python/ 
