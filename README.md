@@ -18,7 +18,14 @@
   ![image](https://github.com/Cate1911/Funciones_Reto_6/assets/141857246/440e85cb-fa66-4212-a74b-6533926b58f8)
 
 ## 4. Mi mamá me manda a comprar P panes a 300 cada uno, M bolsas de leche a 3300 cada una y H huevos a 350 cada uno. Hacer un programa que me diga las vueltas (o lo que quedo debiendo) cuando me da un billete de B pesos.
+  
+  ![image](https://github.com/Cate1911/Funciones_Reto_6/assets/141857246/db18a7d3-1fcf-4dce-824e-f0a54551302a)
+
+Aquí utilicé la función "abs" para que me pudiera hallar el valor absoluto de las vueltas, sólo si queda debiendo el usuario.
 ## 5. Haga un programa que utilice una función para calcular el valor de un préstamo C usando interés compuesto del i por n meses.
+  
+  ![image](https://github.com/Cate1911/Funciones_Reto_6/assets/141857246/c0a1b4bf-910c-422d-ac53-4dbd616ad4f6)
+
 ## 6. El número de contagiados de Covid-19 en el país de NuncaLandia se duplica cada día. Hacer un programa que diga el número total de personas que se han contagiado cuando pasen D días a partir de hoy, si el número de contagiados actuales es C.
 ## 7. Escriba un programa que pida 5 números reales y calcule las siguientes operaciones usando una función para cada una:
   + El promedio.
