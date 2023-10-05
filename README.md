@@ -43,7 +43,7 @@ Aquí utilicé la función "abs" para que me pudiera hallar el valor absoluto de
 
 ## 8. Para el punto anterior incluir las funciones en un archivo independiente e importarlas para su uso.
 
-  ![image](https://github.com/Cate1911/Funciones_Reto_6/assets/141857246/19c9c426-0d7f-49c6-96e6-84ea1eda80b8)
+  ![image](https://github.com/Cate1911/Funciones_Reto_6/assets/141857246/3f6898f4-8100-4b6c-abdd-7cf1a0f17683)
 
 ## 9. Consultar qué es y cómo funciona pip en python.
   Es un gestor o administrador de paquetes para instalar y administrar paquetes de software en Python y descargarlos en la computadora, esto, con el fin de integrarlos a los desarrollos que realizamos en Python. Este gestor no es necesario instalarlo si se tiene una versión de Python de 3.4 o más avanzada.
